@@ -1,4 +1,4 @@
-## Usefull links:
+## Useful links:
 
 - intro to binary numbers: https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction
 
