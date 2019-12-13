@@ -35,21 +35,21 @@ int main()
               0b0000000000101010 
             ^ 0b0000000101001101
             ---------------------
-            = 0b0000000101100111
+            = 0b0000000101100111 <- 'a' is now equal to the bitwise difference between 'a' and 'b'
 
         *b = *a ^ *b;
 
               0b0000000101100111 
             ^ 0b0000000101001101
             ---------------------
-            = 0b0000000000101010 <- note that b now contains the original value of a
+            = 0b0000000000101010 <- note that 'b' now contains the original value of 'a'
 
         *a = *a ^ *b;
-        
+
               0b0000000101100111 
             ^ 0b0000000000101010
             ---------------------
-            = 0b0000000101001101 <- note that a now contains the original value of b
+            = 0b0000000101001101 <- note that 'a' now contains the original value of 'b'
         
         a and b are now swapped!
     */
