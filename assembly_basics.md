@@ -7,3 +7,4 @@
 
 - https://www.youtube.com/watch?v=L1ung0wil9Y&list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf&index=4 MIT lecture from 6.172, nice broad-strokes assembly primer.
 - http://www.securitytube.net/groups?operation=view&groupId=5 this is a series on assembly for linux. if you go through the first few videos you can write a nice hello world in assembly and get a feel for how variables work.
+- https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/ Tutorial for getting bare metal assembly running on a raspberry pi. Note that some of the instructions are not updated for the pi 3, the base of the GPIO portion of the memory map moved from 0x20200000 to 0x3F200000.
